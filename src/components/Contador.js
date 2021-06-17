@@ -1,6 +1,14 @@
 import { useState } from 'react';
 
-
+/**
+ * Un componente así como las pantallas tiene un estado inicial
+ * y también recibe props que son utilizador para modificar el componente a necesidad
+ * por ejemplo:
+ * funciones
+ * colores
+ * textos
+ * tamaños
+ */
 export default function Contador() {
    const [count, setCount] = useState(0);
    const [isActive, setIsActive] = useState(false);

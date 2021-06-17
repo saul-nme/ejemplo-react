@@ -1,8 +1,10 @@
 import Router from './router/Navigation';
 import enTranslations from '@shopify/polaris/locales/en.json';
-import { AppProvider, Page, Card, Button } from '@shopify/polaris';
+import { AppProvider } from '@shopify/polaris';
 
-
+/**
+ * Configuración principal para polaris y uso del router
+ */
 
 function App() {
   return (

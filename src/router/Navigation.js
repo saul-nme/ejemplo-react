@@ -9,6 +9,14 @@ import About from '../screens/About';
 import Users from '../screens/Users';
 import Contact from '../screens/Contact';
 
+/**
+ * Configuración del router para acceder a las pantallas del proyecto
+ * Home
+ * About
+ * Users
+ * Contact
+ */
+
 export default function Navigation() {
    return (
       <Router>

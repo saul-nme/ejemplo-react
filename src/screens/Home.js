@@ -1,6 +1,11 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import { Avatar, Button, Card, Filters, Page, ResourceItem, ResourceList, TextField, TextStyle } from '@shopify/polaris';
 
+
+/**
+ * Una pantalla es similar al componente sólo que esta es parte del router de la aplicación
+ */
+
 export default function Home() {
    const [pokemons, setPokemons] = useState([]);
    const [loading, setLoading] = useState(true);
@@ -32,21 +37,6 @@ export default function Home() {
       singular: 'customer',
       plural: 'customers',
    };
-
-   const items = [
-      {
-         id: 108,
-         url: 'customers/341',
-         name: 'Mae Jemison',
-         location: 'Decatur, USA',
-      },
-      {
-         id: 208,
-         url: 'customers/256',
-         name: 'Ellen Ochoa',
-         location: 'Los Angeles, USA',
-      },
-   ];
 
    const filters = [
       {
